@@ -1,0 +1,39 @@
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #607D8B;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #2196F3;
+}
+
+.skills-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #1976D2;
+}
+
+.stats-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #2196F3;
+}
+
+.experience-section {
+    text-align: center;
+    background: #1976D2;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #607D8B;
+}
