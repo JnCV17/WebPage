@@ -1,5 +1,6 @@
 .intro-section {
     height: 100%;
+    width: auto;
     padding-top: 150px;
     text-align: center;
     background: #607D8B;
@@ -12,6 +13,7 @@
 
 .about-section {
     height: 100%;
+    width: auto;
     padding-top: 150px;
     text-align: center;
     background: #2196F3;
@@ -19,6 +21,7 @@
 
 .skills-section {
     height: 100%;
+    width: auto;
     padding-top: 50px;
     text-align: center;
     background: #1976D2;
@@ -26,19 +29,24 @@
 
 .stats-section {
     height: 100%;
+    width: auto;
     padding-top: 150px;
     text-align: center;
     background: #1976D2;
 }
 
 .experience-section {
+    width: auto;
     text-align: center;
     background: #f6f6f6;
 }
 
 .contact-section {
     height: 100%;
+    width: auto;
     padding-top: 150px;
     text-align: center;
     background: #607D8B;
 }
+
+.
