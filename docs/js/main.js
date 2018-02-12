@@ -3,7 +3,6 @@ function main() {
 (function () {
    'use strict';
 
-
 	// skills chart
 	$(document).ready(function(e) {
 	//var windowBottom = $(window).height();
