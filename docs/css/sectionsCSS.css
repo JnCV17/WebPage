@@ -4,6 +4,7 @@
     text-align: center;
     background: #607D8B;
     background: url(../img/intro-bg.jpg) no-repeat center top cover;
+    width: 100%;
 }
 
 .about-section {
