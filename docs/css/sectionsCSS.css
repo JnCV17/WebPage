@@ -14,7 +14,7 @@
 
 .skills-section {
     height: 100%;
-    padding-top: 20px;
+    padding-top: 1px;
     text-align: center;
     background: #1976D2;
 }
@@ -23,7 +23,7 @@
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #2196F3;
+    background: #1976D2;
 }
 
 .experience-section {
