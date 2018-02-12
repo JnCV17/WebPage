@@ -13,6 +13,8 @@
 }
 
 .skills-section {
+    height: 100%;
+    padding-top: 10px;
     text-align: center;
     background: #1976D2;
 }
