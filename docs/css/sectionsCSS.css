@@ -3,8 +3,11 @@
     padding-top: 150px;
     text-align: center;
     background: #607D8B;
-    background: url(../img/intro-bg.jpg) no-repeat center top cover;
-    width: 100%;
+    background: url(../img/intro-bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .about-section {
