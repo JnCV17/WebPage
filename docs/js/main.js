@@ -27,16 +27,18 @@ function main() {
 	//console.log(nagativeValue)
 	});
 	
-	  	
-    // CounterUp
-	$(document).ready(function( $ ) {
-		if($("span.count").length > 0){	
-			$('span.count').counterUp({
-					delay: 10, // the delay time in ms
-			time: 1500 // the speed time in ms
-			});
-		}
-	});
+        $('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+        }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+            }
+         });
+    });
+
 
 }());
 

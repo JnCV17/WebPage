@@ -182,7 +182,7 @@
                 <div class="col-lg-12">
                     <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
             
-                                <div class="achievement-box"> <span class="counter">44</span>
+                                <div class="achievement-box"> <span class="count">44</span>
               
                                     <h4>Materias Completadas (Icesi)</h4>
             
@@ -192,7 +192,7 @@
           
                             <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
             
-                                <div class="achievement-box"> <span class="counter">13</span>
+                                <div class="achievement-box"> <span class="count">13</span>
               
                                     <h4>Semestres Cursados</h4>
             
@@ -202,7 +202,7 @@
           
                             <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="600ms">
             
-                                <div class="achievement-box"> <span class="counter">2</span>
+                                <div class="achievement-box"> <span class="count">2</span>
               
                                     <h4>Universidades a las que he asistido</h4>
             
@@ -212,7 +212,7 @@
           
                             <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="800ms">
             
-                                <div class="achievement-box"> <span class="counter">6</span>
+                                <div class="achievement-box"> <span class="count">6</span>
               
                                     <h4>Años academicos universitarios cursados</h4>
             
@@ -389,16 +389,19 @@
     <script type="text/javascript" src="js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="js/scrolling-nav.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
 
     <script>
-        jQuery(document).ready(function($) {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
-        });
+        $('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+        }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+            }
+         });
+    });
     </script>
     
     <!-- PieChart JavaScript -->
