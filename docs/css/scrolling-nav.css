@@ -89,7 +89,8 @@ hr {
 	margin: 0;
 }
 
-.achievement-box span.counter {
+.count
+{
 	font-size: 52px;
 	font-weight: 600;
 	display: block;
@@ -97,6 +98,7 @@ hr {
 	padding: 0;
 	margin: 0;
 }
+
 
 body {
     width: 100%;
